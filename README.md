@@ -3,7 +3,7 @@ Description : It aims to analyze a dataset of algorithms or models, focusing on 
 
 Importing Libraries: The code starts by importing Pandas for data manipulation, regular expressions (re) for text processing, and Matplotlib for data visualization.
 
-Reading the Dataset: Like the previous code, it reads a dataset from a given file path into a Pandas DataFrame.
+Reading the Dataset: It reads a dataset from a given file path into a Pandas DataFrame.
 
 Counting Adjective Frequencies: The code uses regular expressions to extract words from the "Features" column and counts the frequencies of adjectives. This approach differs from the previous code, which used SpaCy for natural language processing. This approach can capture adjectives effectively.
 
